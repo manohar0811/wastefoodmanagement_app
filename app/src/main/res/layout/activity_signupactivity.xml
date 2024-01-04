@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".signupactivity"
+    android:gravity="center">
+    <ImageView
+        android:layout_width="270dp"
+        android:layout_height="210dp"
+        android:layout_marginBottom="50dp"
+        android:src="@drawable/hii"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:id="@+id/btnsigupuser"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/custom_btn"
+        android:textColor="#ffff"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="20dp"
+
+        android:text="signup as user"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/btnsigupcompany"
+        android:background="@drawable/custom_btn2"
+        android:layout_height="54dp"
+        android:text="signup as company"/>
+
+</LinearLayout>

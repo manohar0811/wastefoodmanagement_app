@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".officialportal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="official login"
+        android:textSize="38sp"
+        android:id="@+id/otv"
+        android:textStyle="bold"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ENTER SECURITY CODE"
+        android:layout_below="@+id/otv"
+        android:textSize="20sp"
+        android:id="@+id/otv2"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"/>
+
+    <EditText
+        android:id="@+id/oet"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/otv2"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:hint="enter here"
+        android:background="@drawable/custom_searchbar"
+        android:padding="7dp"
+        android:inputType="text" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btncheck"
+        android:background="@drawable/custom_btn"
+        android:textColor="#ffff"
+        android:text="check requests"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_below="@+id/oet"/>
+</RelativeLayout>

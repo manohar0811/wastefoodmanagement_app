@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Manohar/AndroidStudioProjects/FOODONE/app/src/main/res/drawable/custom_btn.xml" value="0.182" />
+        <entry key="..\:/Users/Manohar/AndroidStudioProjects/FOODONE/app/src/main/res/drawable/custom_btn2.xml" value="0.182" />
+        <entry key="..\:/Users/Manohar/AndroidStudioProjects/FOODONE/app/src/main/res/drawable/custom_searchbar.xml" value="0.182" />
+        <entry key="..\:/Users/Manohar/AndroidStudioProjects/FOODONE/app/src/main/res/layout/activity_companyloginact.xml" value="0.2760416666666667" />
+        <entry key="..\:/Users/Manohar/AndroidStudioProjects/FOODONE/app/src/main/res/layout/activity_companyportal.xml" value="0.26197916666666665" />
+        <entry key="..\:/Users/Manohar/AndroidStudioProjects/FOODONE/app/src/main/res/layout/activity_companysignup.xml" value="0.2760416666666667" />
+        <entry key="..\:/Users/Manohar/AndroidStudioProjects/FOODONE/app/src/main/res/layout/activity_excessactivity.xml" value="0.26197916666666665" />
+        <entry key="..\:/Users/Manohar/AndroidStudioProjects/FOODONE/app/src/main/res/layout/activity_main.xml" value="0.2857142857142857" />
+        <entry key="..\:/Users/Manohar/AndroidStudioProjects/FOODONE/app/src/main/res/layout/activity_needactivity.xml" value="0.2760416666666667" />
+        <entry key="..\:/Users/Manohar/AndroidStudioProjects/FOODONE/app/src/main/res/layout/activity_officialactivity.xml" value="0.2760416666666667" />
+        <entry key="..\:/Users/Manohar/AndroidStudioProjects/FOODONE/app/src/main/res/layout/activity_officialportal.xml" value="0.2760416666666667" />
+        <entry key="..\:/Users/Manohar/AndroidStudioProjects/FOODONE/app/src/main/res/layout/activity_response.xml" value="0.26197916666666665" />
+        <entry key="..\:/Users/Manohar/AndroidStudioProjects/FOODONE/app/src/main/res/layout/activity_searchresult.xml" value="0.26197916666666665" />
+        <entry key="..\:/Users/Manohar/AndroidStudioProjects/FOODONE/app/src/main/res/layout/activity_showrequests.xml" value="0.2760416666666667" />
+        <entry key="..\:/Users/Manohar/AndroidStudioProjects/FOODONE/app/src/main/res/layout/activity_signupactivity.xml" value="0.26197916666666665" />
+        <entry key="..\:/Users/Manohar/AndroidStudioProjects/FOODONE/app/src/main/res/layout/activity_splashactivity.xml" value="0.2033514492753623" />
+        <entry key="..\:/Users/Manohar/AndroidStudioProjects/FOODONE/app/src/main/res/layout/activity_userlogiinact.xml" value="0.2760416666666667" />
+        <entry key="..\:/Users/Manohar/AndroidStudioProjects/FOODONE/app/src/main/res/layout/activity_userportal.xml" value="0.2760416666666667" />
+        <entry key="..\:/Users/Manohar/AndroidStudioProjects/FOODONE/app/src/main/res/layout/activity_usersignupactivity.xml" value="0.2760416666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

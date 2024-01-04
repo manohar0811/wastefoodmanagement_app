@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FOODONE">
+        <activity
+            android:name=".companyloginact"
+            android:exported="false" />
+        <activity
+            android:name=".userlogiinact"
+            android:exported="false" />
+        <activity
+            android:name=".searchresult"
+            android:exported="false" />
+        <activity
+            android:name=".showrequests"
+            android:exported="false" />
+        <activity
+            android:name=".response"
+            android:exported="false" />
+        <activity
+            android:name=".needactivity"
+            android:exported="false" />
+        <activity
+            android:name=".excessactivity"
+            android:exported="false" />
+        <activity
+            android:name=".officialportal"
+            android:exported="false" />
+        <activity
+            android:name=".companyportal"
+            android:exported="false" />
+        <activity
+            android:name=".userportal"
+            android:exported="false" />
+        <activity
+            android:name=".companysignup"
+            android:exported="false" />
+        <activity
+            android:name=".usersignupactivity"
+            android:exported="false" />
+        <activity
+            android:name=".signupactivity"
+            android:exported="false" />
+        <activity
+            android:name=".splashactivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".excessactivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please fill the below form"
+        android:textSize="27sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="20dp"/>
+    <EditText
+        android:id="@+id/ettype"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="eatable/waste"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        android:inputType="text"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etquantity"
+        android:hint="Quantity"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        android:inputType="text"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Address"
+        android:id="@+id/etaddr"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        android:inputType="text"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Time limit (hours)"
+        android:id="@+id/ettime"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        android:inputType="number"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="submit details"
+        android:background="@drawable/custom_btn"
+        android:textColor="#ffff"
+        android:id="@+id/btnsubmit"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="20dp"
+       />
+
+
+</LinearLayout>
